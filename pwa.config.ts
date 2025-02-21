@@ -8,7 +8,7 @@ const pwaOption: Partial<VitePWAOptions> = {
   manifest: {
     name: "心尘博客",
     short_name: "心尘博客",
-    description: "Elegant reading of real-time and hottest news",
+    description: "新闻热点聚合平台 | AI站长工具_AI资讯_谷歌SEO优化博客实验室",
     theme_color: "#F14D42",
     icons: [
       {
