@@ -48,8 +48,8 @@ export function Header() {
           <span className="text-2xl font-brand line-height-none!">
             <p>心尘博客</p>
              <p className="mt--1">
-              <span className="color-primary-6">N</span>
-              <span>ow</span>
+              <span className="color-primary-6">T</span>
+              <span>OP</span>
             </p>
           </span>
         </Link>
