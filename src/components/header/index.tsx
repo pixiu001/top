@@ -47,6 +47,10 @@ export function Header() {
           <div className="h-10 w-10 bg-cover" title="logo" style={{ backgroundImage: "url(/icon.svg)" }} />
           <span className="text-2xl font-brand line-height-none!">
             <p>心尘博客</p>
+             <p className="mt--1">
+              <span className="color-primary-6">N</span>
+              <span>ow</span>
+            </p>
           </span>
         </Link>
       </span>
