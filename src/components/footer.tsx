@@ -1,13 +1,11 @@
 export function Footer() {
   return (
-    <>
-      <a href={`${Homepage}/LICENCE`} target="_blank">MIT LICENCE</a>
-      <span>
-        <span>NewsNow © 2024 By </span>
-        <a href={Author.url} target="_blank">
-          {Author.name}
-        </a>
-      </span>
-    </>
+    <footer className="text-sm text-gray-500 dark:text-gray-400 text-center py-4">
+      <div className="container mx-auto">
+        <p>
+          © {new Date().getFullYear()} 心尘博客 - All Rights Reserved
+        </p>
+      </div>
+    </footer>
   )
 }
