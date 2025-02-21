@@ -9,7 +9,7 @@ const enableLoginAtom = atomWithStorage<{
   enable: boolean
   url?: string
 }>("login", {
-  enable: true,
+  enable: false,
 })
 
 enableLoginAtom.onMount = (set) => {
