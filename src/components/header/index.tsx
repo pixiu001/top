@@ -46,7 +46,7 @@ export function Header() {
         <Link to="/" className="flex gap-2 items-center">
           <div className="h-10 w-10 bg-cover" title="logo" style={{ backgroundImage: "url(/icon.svg)" }} />
           <span className="text-2xl font-brand line-height-none!">
-            <p>心尘博客 - 新闻热点聚合平台 | AI站长工具_AI资讯_谷歌SEO优化博客实验室</p>
+            <p>心尘博客</p>
             <p className="mt--1">
               <span className="color-primary-6">N</span>
               <span>ow</span>
